@@ -24,7 +24,7 @@ document.addEventListener("DOMContentLoaded", () => {
     let selected = null;
 
     // Открытие региона из URL
-    const regionFromUrl = decodeURIComponent(location.hash.slice(1));
+    const regionFromUrl = decodeURIComponent(window.parent.location.hash.slice(1));
 
     if (regionFromUrl && stateIndex[regionFromUrl]) {
       const state = svg.getElementById(regionFromUrl);
