@@ -1,0 +1,597 @@
+{
+  "Республика Адыгея": {
+    "name": "Республика Адыгея",
+    "folder": "data/RU-AD",
+    "text": "RU-AD.json",
+    "color": "#D14747",
+    "images": ["1.jpg", "2.jpg"]
+  },
+  "Республика Алтай": {
+    "name": "Республика Алтай",
+    "folder": "data/RU-AL",
+    "text": "RU-AL.json",
+    "color": "#D15147",
+    "images": ["1.jpg", "2.jpg"]
+  },
+  "Алтайский край": {
+    "name": "Алтайский край",
+    "folder": "data/RU-ALT",
+    "text": "RU-ALT.json",
+    "color": "#D15A47",
+    "images": ["1.jpg", "2.jpg"]
+  },
+  "Амурская область": {
+    "name": "Амурская область",
+    "folder": "data/RU-AMU",
+    "text": "RU-AMU.json",
+    "color": "#D16447",
+    "images": ["1.jpg", "2.jpg"]
+  },
+  "Архангельская область": {
+    "name": "Архангельская область",
+    "folder": "data/RU-ARK",
+    "text": "RU-ARK.json",
+    "color": "#D16E47",
+    "images": ["1.jpg", "2.jpg"]
+  },
+  "Астраханская область": {
+    "name": "Астраханская область",
+    "folder": "data/RU-AST",
+    "text": "RU-AST.json",
+    "color": "#D17847",
+    "images": ["1.jpg", "2.jpg"]
+  },
+  "Республика Башкортостан": {
+    "name": "Республика Башкортостан",
+    "folder": "data/RU-BA",
+    "text": "RU-BA.json",
+    "color": "#D18147",
+    "images": ["1.jpg", "2.jpg"]
+  },
+  "Белгородская область": {
+    "name": "Белгородская область",
+    "folder": "data/RU-BEL",
+    "text": "RU-BEL.json",
+    "color": "#D18B47",
+    "images": ["1.jpg", "2.jpg"]
+  },
+  "Брянская область": {
+    "name": "Брянская область",
+    "folder": "data/RU-BRY",
+    "text": "RU-BRY.json",
+    "color": "#D19547",
+    "images": ["1.jpg", "2.jpg"]
+  },
+  "Республика Бурятия": {
+    "name": "Республика Бурятия",
+    "folder": "data/RU-BU",
+    "text": "RU-BU.json",
+    "color": "#D19F47",
+    "images": ["1.jpg", "2.jpg"]
+  },
+  "Чеченская Республика": {
+    "name": "Чеченская Республика",
+    "folder": "data/RU-CE",
+    "text": "RU-CE.json",
+    "color": "#D1A947",
+    "images": ["1.jpg", "2.jpg"]
+  },
+  "Челябинская область": {
+    "name": "Челябинская область",
+    "folder": "data/RU-CHE",
+    "text": "RU-CHE.json",
+    "color": "#D1B347",
+    "images": ["1.jpg", "2.jpg"]
+  },
+  "Чукотский АО": {
+    "name": "Чукотский АО",
+    "folder": "data/RU-CHU",
+    "text": "RU-CHU.json",
+    "color": "#D1BD47",
+    "images": ["1.jpg", "2.jpg"]
+  },
+  "Чувашская Республика": {
+    "name": "Чувашская Республика",
+    "folder": "data/RU-CU",
+    "text": "RU-CU.json",
+    "color": "#D1C747",
+    "images": ["1.jpg", "2.jpg"]
+  },
+  "Республика Дагестан": {
+    "name": "Республика Дагестан",
+    "folder": "data/RU-DA",
+    "text": "RU-DA.json",
+    "color": "#D1D147",
+    "images": ["1.jpg", "2.jpg"]
+  },
+  "Республика Ингушетия": {
+    "name": "Республика Ингушетия",
+    "folder": "data/RU-IN",
+    "text": "RU-IN.json",
+    "color": "#C8D147",
+    "images": ["1.jpg", "2.jpg"]
+  },
+  "Иркутская область": {
+    "name": "Иркутская область",
+    "folder": "data/RU-IRK",
+    "text": "RU-IRK.json",
+    "color": "#BED147",
+    "images": ["1.jpg", "2.jpg"]
+  },
+  "Ивановская область": {
+    "name": "Ивановская область",
+    "folder": "data/RU-IVA",
+    "text": "RU-IVA.json",
+    "color": "#B4D147",
+    "images": ["1.jpg", "2.jpg"]
+  },
+  "Камчатский край": {
+    "name": "Камчатский край",
+    "folder": "data/RU-KAM",
+    "text": "RU-KAM.json",
+    "color": "#AAD147",
+    "images": ["1.jpg", "2.jpg"]
+  },
+  "Кабардино-Балкарская Республика": {
+    "name": "Кабардино-Балкарская Республика",
+    "folder": "data/RU-KB",
+    "text": "RU-KB.json",
+    "color": "#A0D147",
+    "images": ["1.jpg", "2.jpg"]
+  },
+  "Карачаево-Черкесская Республика": {
+    "name": "Карачаево-Черкесская Республика",
+    "folder": "data/RU-KC",
+    "text": "RU-KC.json",
+    "color": "#96D147",
+    "images": ["1.jpg", "2.jpg"]
+  },
+  "Краснодарский край": {
+    "name": "Краснодарский край",
+    "folder": "data/RU-KDA",
+    "text": "RU-KDA.json",
+    "color": "#8CD147",
+    "images": ["1.jpg", "2.jpg"]
+  },
+  "Кемеровская область": {
+    "name": "Кемеровская область",
+    "folder": "data/RU-KEM",
+    "text": "RU-KEM.json",
+    "color": "#82D147",
+    "images": ["1.jpg", "2.jpg"]
+  },
+  "Калининградская область": {
+    "name": "Калининградская область",
+    "folder": "data/RU-KGD",
+    "text": "RU-KGD.json",
+    "color": "#78D147",
+    "images": ["1.jpg", "2.jpg"]
+  },
+  "Курганская область": {
+    "name": "Курганская область",
+    "folder": "data/RU-KGN",
+    "text": "RU-KGN.json",
+    "color": "#6ED147",
+    "images": ["1.jpg", "2.jpg"]
+  },
+  "Хабаровский край": {
+    "name": "Хабаровский край",
+    "folder": "data/RU-KHA",
+    "text": "RU-KHA.json",
+    "color": "#64D147",
+    "images": ["1.jpg", "2.jpg"]
+  },
+  "Ханты-Мансийский АО": {
+    "name": "Ханты-Мансийский АО",
+    "folder": "data/RU-KHM",
+    "text": "RU-KHM.json",
+    "color": "#5AD147",
+    "images": ["1.jpg", "2.jpg"]
+  },
+  "Кировская область": {
+    "name": "Кировская область",
+    "folder": "data/RU-KIR",
+    "text": "RU-KIR.json",
+    "color": "#50D147",
+    "images": ["1.jpg", "2.jpg"]
+  },
+  "Республика Хакасия": {
+    "name": "Республика Хакасия",
+    "folder": "data/RU-KK",
+    "text": "RU-KK.json",
+    "color": "#47D14A",
+    "images": ["1.jpg", "2.jpg"]
+  },
+  "Республика Калмыкия": {
+    "name": "Республика Калмыкия",
+    "folder": "data/RU-KL",
+    "text": "RU-KL.json",
+    "color": "#47D154",
+    "images": ["1.jpg", "2.jpg"]
+  },
+  "Калужская область": {
+    "name": "Калужская область",
+    "folder": "data/RU-KLU",
+    "text": "RU-KLU.json",
+    "color": "#47D15E",
+    "images": ["1.jpg", "2.jpg"]
+  },
+  "Республика Коми": {
+    "name": "Республика Коми",
+    "folder": "data/RU-KO",
+    "text": "RU-KO.json",
+    "color": "#47D168",
+    "images": ["1.jpg", "2.jpg"]
+  },
+  "Костромская область": {
+    "name": "Костромская область",
+    "folder": "data/RU-KOS",
+    "text": "RU-KOS.json",
+    "color": "#47D172",
+    "images": ["1.jpg", "2.jpg"]
+  },
+  "Республика Карелия": {
+    "name": "Республика Карелия",
+    "folder": "data/RU-KR",
+    "text": "RU-KR.json",
+    "color": "#47D17C",
+    "images": ["1.jpg", "2.jpg"]
+  },
+  "Курская область": {
+    "name": "Курская область",
+    "folder": "data/RU-KRS",
+    "text": "RU-KRS.json",
+    "color": "#47D186",
+    "images": ["1.jpg", "2.jpg"]
+  },
+  "Красноярский край": {
+    "name": "Красноярский край",
+    "folder": "data/RU-KYA",
+    "text": "RU-KYA.json",
+    "color": "#47D190",
+    "images": ["1.jpg", "2.jpg"]
+  },
+  "Ленинградская область": {
+    "name": "Ленинградская область",
+    "folder": "data/RU-LEN",
+    "text": "RU-LEN.json",
+    "color": "#47D19A",
+    "images": ["1.jpg", "2.jpg"]
+  },
+  "Липецкая область": {
+    "name": "Липецкая область",
+    "folder": "data/RU-LIP",
+    "text": "RU-LIP.json",
+    "color": "#47D1A4",
+    "images": ["1.jpg", "2.jpg"]
+  },
+  "Магаданская область": {
+    "name": "Магаданская область",
+    "folder": "data/RU-MAG",
+    "text": "RU-MAG.json",
+    "color": "#47D1AE",
+    "images": ["1.jpg", "2.jpg"]
+  },
+  "Республика Марий Эл": {
+    "name": "Республика Марий Эл",
+    "folder": "data/RU-ME",
+    "text": "RU-ME.json",
+    "color": "#47D1B8",
+    "images": ["1.jpg", "2.jpg"]
+  },
+  "Республика Мордовия": {
+    "name": "Республика Мордовия",
+    "folder": "data/RU-MO",
+    "text": "RU-MO.json",
+    "color": "#47D1C2",
+    "images": ["1.jpg", "2.jpg"]
+  },
+  "Московская область": {
+    "name": "Московская область",
+    "folder": "data/RU-MOS",
+    "text": "RU-MOS.json",
+    "color": "#47D1CC",
+    "images": ["1.jpg", "2.jpg"]
+  },
+  "Москва": {
+    "name": "Москва",
+    "folder": "data/RU-MOW",
+    "text": "RU-MOW.json",
+    "color": "#47D1D6",
+    "images": ["1.jpg", "2.jpg"]
+  },
+  "Мурманская область": {
+    "name": "Мурманская область",
+    "folder": "data/RU-MUR",
+    "text": "RU-MUR.json",
+    "color": "#47D1E0",
+    "images": ["1.jpg", "2.jpg"]
+  },
+  "Ненецкий АО": {
+    "name": "Ненецкий АО",
+    "folder": "data/RU-NEN",
+    "text": "RU-NEN.json",
+    "color": "#47C9D1",
+    "images": ["1.jpg", "2.jpg"]
+  },
+  "Новгородская область": {
+    "name": "Новгородская область",
+    "folder": "data/RU-NGR",
+    "text": "RU-NGR.json",
+    "color": "#47BFD1",
+    "images": ["1.jpg", "2.jpg"]
+  },
+  "Нижегородская область": {
+    "name": "Нижегородская область",
+    "folder": "data/RU-NIZ",
+    "text": "RU-NIZ.json",
+    "color": "#47B5D1",
+    "images": ["1.jpg", "2.jpg"]
+  },
+  "Новосибирская область": {
+    "name": "Новосибирская область",
+    "folder": "data/RU-NVS",
+    "text": "RU-NVS.json",
+    "color": "#47ABD1",
+    "images": ["1.jpg", "2.jpg"]
+  },
+  "Омская область": {
+    "name": "Омская область",
+    "folder": "data/RU-OMS",
+    "text": "RU-OMS.json",
+    "color": "#47A1D1",
+    "images": ["1.jpg", "2.jpg"]
+  },
+  "Оренбургская область": {
+    "name": "Оренбургская область",
+    "folder": "data/RU-ORE",
+    "text": "RU-ORE.json",
+    "color": "#4797D1",
+    "images": ["1.jpg", "2.jpg"]
+  },
+  "Орловская область": {
+    "name": "Орловская область",
+    "folder": "data/RU-ORL",
+    "text": "RU-ORL.json",
+    "color": "#478DD1",
+    "images": ["1.jpg", "2.jpg"]
+  },
+  "Пермский край": {
+    "name": "Пермский край",
+    "folder": "data/RU-PER",
+    "text": "RU-PER.json",
+    "color": "#4783D1",
+    "images": ["1.jpg", "2.jpg"]
+  },
+  "Пензенская область": {
+    "name": "Пензенская область",
+    "folder": "data/RU-PNZ",
+    "text": "RU-PNZ.json",
+    "color": "#4779D1",
+    "images": ["1.jpg", "2.jpg"]
+  },
+  "Приморский край": {
+    "name": "Приморский край",
+    "folder": "data/RU-PRI",
+    "text": "RU-PRI.json",
+    "color": "#476FD1",
+    "images": ["1.jpg", "2.jpg"]
+  },
+  "Псковская область": {
+    "name": "Псковская область",
+    "folder": "data/RU-PSK",
+    "text": "RU-PSK.json",
+    "color": "#4765D1",
+    "images": ["1.jpg", "2.jpg"]
+  },
+  "Ростовская область": {
+    "name": "Ростовская область",
+    "folder": "data/RU-ROS",
+    "text": "RU-ROS.json",
+    "color": "#475BD1",
+    "images": ["1.jpg", "2.jpg"]
+  },
+  "Рязанская область": {
+    "name": "Рязанская область",
+    "folder": "data/RU-RYA",
+    "text": "RU-RYA.json",
+    "color": "#4751D1",
+    "images": ["1.jpg", "2.jpg"]
+  },
+  "Республика Саха (Якутия)": {
+    "name": "Республика Саха (Якутия)",
+    "folder": "data/RU-SA",
+    "text": "RU-SA.json",
+    "color": "#4D47D1",
+    "images": ["1.jpg", "2.jpg"]
+  },
+  "Сахалинская область": {
+    "name": "Сахалинская область",
+    "folder": "data/RU-SAK",
+    "text": "RU-SAK.json",
+    "color": "#5747D1",
+    "images": ["1.jpg", "2.jpg"]
+  },
+  "Самарская область": {
+    "name": "Самарская область",
+    "folder": "data/RU-SAM",
+    "text": "RU-SAM.json",
+    "color": "#6147D1",
+    "images": ["1.jpg", "2.jpg"]
+  },
+  "Саратовская область": {
+    "name": "Саратовская область",
+    "folder": "data/RU-SAR",
+    "text": "RU-SAR.json",
+    "color": "#6B47D1",
+    "images": ["1.jpg", "2.jpg"]
+  },
+  "Республика Северная Осетия": {
+    "name": "Республика Северная Осетия",
+    "folder": "data/RU-SE",
+    "text": "RU-SE.json",
+    "color": "#7547D1",
+    "images": ["1.jpg", "2.jpg"]
+  },
+  "Смоленская область": {
+    "name": "Смоленская область",
+    "folder": "data/RU-SMO",
+    "text": "RU-SMO.json",
+    "color": "#7F47D1",
+    "images": ["1.jpg", "2.jpg"]
+  },
+  "Санкт-Петербург": {
+    "name": "Санкт-Петербург",
+    "folder": "data/RU-SPE",
+    "text": "RU-SPE.json",
+    "color": "#8947D1",
+    "images": ["1.jpg", "2.jpg"]
+  },
+  "Ставропольский край": {
+    "name": "Ставропольский край",
+    "folder": "data/RU-STA",
+    "text": "RU-STA.json",
+    "color": "#9347D1",
+    "images": ["1.jpg", "2.jpg"]
+  },
+  "Свердловская область": {
+    "name": "Свердловская область",
+    "folder": "data/RU-SVE",
+    "text": "RU-SVE.json",
+    "color": "#9D47D1",
+    "images": ["1.jpg", "2.jpg"]
+  },
+  "Республика Татарстан": {
+    "name": "Республика Татарстан",
+    "folder": "data/RU-TA",
+    "text": "RU-TA.json",
+    "color": "#A747D1",
+    "images": ["1.jpg", "2.jpg"]
+  },
+  "Тамбовская область": {
+    "name": "Тамбовская область",
+    "folder": "data/RU-TAM",
+    "text": "RU-TAM.json",
+    "color": "#B147D1",
+    "images": ["1.jpg", "2.jpg"]
+  },
+  "Томская область": {
+    "name": "Томская область",
+    "folder": "data/RU-TOM",
+    "text": "RU-TOM.json",
+    "color": "#BB47D1",
+    "images": ["1.jpg", "2.jpg"]
+  },
+  "Тульская область": {
+    "name": "Тульская область",
+    "folder": "data/RU-TUL",
+    "text": "RU-TUL.json",
+    "color": "#C547D1",
+    "images": ["1.jpg", "2.jpg"]
+  },
+  "Тверская область": {
+    "name": "Тверская область",
+    "folder": "data/RU-TVE",
+    "text": "RU-TVE.json",
+    "color": "#CF47D1",
+    "images": ["1.jpg", "2.jpg"]
+  },
+  "Республика Тыва": {
+    "name": "Республика Тыва",
+    "folder": "data/RU-TY",
+    "text": "RU-TY.json",
+    "color": "#D147C9",
+    "images": ["1.jpg", "2.jpg"]
+  },
+  "Тюменская область": {
+    "name": "Тюменская область",
+    "folder": "data/RU-TYU",
+    "text": "RU-TYU.json",
+    "color": "#D147BF",
+    "images": ["1.jpg", "2.jpg"]
+  },
+  "Удмуртская Республика": {
+    "name": "Удмуртская Республика",
+    "folder": "data/RU-UD",
+    "text": "RU-UD.json",
+    "color": "#D147B5",
+    "images": ["1.jpg", "2.jpg"]
+  },
+  "Ульяновская область": {
+    "name": "Ульяновская область",
+    "folder": "data/RU-ULY",
+    "text": "RU-ULY.json",
+    "color": "#D147AB",
+    "images": ["1.jpg", "2.jpg"]
+  },
+  "Волгоградская область": {
+    "name": "Волгоградская область",
+    "folder": "data/RU-VGG",
+    "text": "RU-VGG.json",
+    "color": "#D147A1",
+    "images": ["1.jpg", "2.jpg"]
+  },
+  "Владимирская область": {
+    "name": "Владимирская область",
+    "folder": "data/RU-VLA",
+    "text": "RU-VLA.json",
+    "color": "#D14797",
+    "images": ["1.jpg", "2.jpg"]
+  },
+  "Вологодская область": {
+    "name": "Вологодская область",
+    "folder": "data/RU-VLG",
+    "text": "RU-VLG.json",
+    "color": "#D1478D",
+    "images": ["1.jpg", "2.jpg"]
+  },
+  "Воронежская область": {
+    "name": "Воронежская область",
+    "folder": "data/RU-VOR",
+    "text": "RU-VOR.json",
+    "color": "#D14783",
+    "images": ["1.jpg", "2.jpg"]
+  },
+  "Ямало-Ненецкий АО": {
+    "name": "Ямало-Ненецкий АО",
+    "folder": "data/RU-YAN",
+    "text": "RU-YAN.json",
+    "color": "#D14779",
+    "images": ["1.jpg", "2.jpg"]
+  },
+  "Ярославская область": {
+    "name": "Ярославская область",
+    "folder": "data/RU-YAR",
+    "text": "RU-YAR.json",
+    "color": "#D1476F",
+    "images": ["1.jpg", "2.jpg"]
+  },
+  "Еврейская автономная область": {
+    "name": "Еврейская автономная область",
+    "folder": "data/RU-YEV",
+    "text": "RU-YEV.json",
+    "color": "#D14765",
+    "images": ["1.jpg", "2.jpg"]
+  },
+  "Забайкальский край": {
+    "name": "Забайкальский край",
+    "folder": "data/RU-ZAB",
+    "text": "RU-ZAB.json",
+    "color": "#D1475B",
+    "images": ["1.jpg", "2.jpg"]
+  },
+  "Республика Крым": {
+    "name": "Республика Крым",
+    "folder": "data/RU-CR",
+    "text": "RU-CR.json",
+    "color": "#D14755",
+    "images": ["1.jpg", "2.jpg"]
+  },
+  "Севастополь": {
+    "name": "Севастополь",
+    "folder": "data/RU-SEV",
+    "text": "RU-SEV.json",
+    "color": "#D14B47",
+    "images": ["1.jpg", "2.jpg"]
+  }
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<meta charset="UTF-8">
+<html>
+    <head>
+        <link rel="stylesheet" href="css.css">
+        <title> Карта </title>
+    </head>
+    <body style="font: 24px 'Georgia'">
+        <div id="map-wrapper">
+            <div id="map-container">
+                <object id="map" data="russia.svg" type="image/svg+xml" style="height: 680px;">
+                    There should be a map of Russian states
+                </object>
+            </div>
+        </div>
+        <div id="overlay" class="overlay hidden">
+            <div class="left-panel" id="left-panel">
+                <div>
+                    Регион: <span id="region-name">...</span>
+                </div>
+                <div id="region-preview"></div>
+                <button id="close-btn" class="close-btn" style="width: 200px; height: 50px; font-size: 20px;">
+                Вернуться к карте
+                </button>
+            </div>
+            <div class="right-panel">
+                <div id="text"></div>
+                <div id="region-images"></div>
+            </div>
+        </div>
+        <script src="ja.js" defer></script>
+    </body>
+</html>
