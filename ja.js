@@ -20,15 +20,11 @@ document.addEventListener("DOMContentLoaded", () => {
     let stateIndex = {};
     const res = await fetch("data/regions.json");
     stateIndex = await res.json();
-    console.log("URL:", window.location.href);
-    console.log("HASH:", location.hash);
 
     let selected = null;
 
     // Открытие региона из URL
     const regionFromUrl = decodeURIComponent(location.hash.slice(1));
-    console.log("Hash:", regionFromUrl);
-    console.log("Exists in JSON:", stateIndex[regionFromUrl]);
 
     if (regionFromUrl && stateIndex[regionFromUrl]) {
       const state = svg.getElementById(regionFromUrl);
@@ -67,10 +63,7 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
     async function showRegionInfo(id) {
-      console.log("OPEN REGION:", id);
-      window.parent.history.replaceState(null, "", "#" + encodeURIComponent(id));
-      console.log("NEW URL:", location.href);
-
+      window.parent.location.hash = encodeURIComponent(id);
       const meta = stateIndex[id];
 
       overlay.classList.remove("hidden");
@@ -93,7 +86,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     function hideInfo() {
       overlay.classList.add("hidden");
-      window.parent.history.replaceState(null, "", location.pathname);
+      window.parent.location.hash = "";
     }
 
     function getRegionCenter(state) {
