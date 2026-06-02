@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="frame.css">
+<header class="top">
+  <h1>Растения Красной книги России</h1>
+  <p>На сайте представлена карта субъектов России. Каждый субъект нажимается, в каждом написано про растение из Красной книги этого региона.</p>
+</header>
+
+<main class="map-section">
+  <iframe src="main.html" class="map-frame" scrolling="no"></iframe>
+</main>
+
+<footer class="feedback">
+  <h2>Обратная связь. Напишите ваш отзыв, всегда открыты к предложениям по улучшению!</h2>
+  <button onclick="openFeedback()">
+        Отправить отзыв
+        </button>
+
+        <script>
+            function openFeedback() {
+                window.open(
+                    "https://docs.google.com/forms/d/e/1FAIpQLScxngmu06f4oQPkmmsqTK5vDseYzQydEl7a5f5xzlQTwQl_1A/viewform?usp=header",
+                    "_blank"
+                );
+            }
+        </script>
+ 
+</footer>
+
