@@ -1,5 +1,6 @@
 document.addEventListener("DOMContentLoaded", () => {
   const mapObject = document.getElementById('map');
+
   mapObject.addEventListener('load', async () => {
     const svg = mapObject.contentDocument;
     const states = svg.querySelectorAll(".russia-region");
@@ -9,64 +10,86 @@ document.addEventListener("DOMContentLoaded", () => {
     const closeBtn = document.getElementById("close-btn");
     const mapContainer = document.getElementById("map-container");
     const imgBox = document.getElementById("region-images");
-    
-
 
     states.forEach(r => {
       r.style.fill = "#ccc";
       r.style.stroke = "#333";
       r.style.strokeWidth = "0.5px";
     });
+
     let stateIndex = {};
     const res = await fetch("data/regions.json");
     stateIndex = await res.json();
 
     let selected = null;
-    states.forEach((state, i) => {
+
+    // Открытие региона из URL
+    const regionFromUrl = location.hash.slice(1);
+
+    if (regionFromUrl && stateIndex[regionFromUrl]) {
+      const state = svg.getElementById(regionFromUrl);
+
+      if (state) {
+        selected = state;
+        state.style.fill = stateIndex[regionFromUrl].color;
+
+        showRegionInfo(regionFromUrl);
+        showRegionInPanel(state);
+      }
+    }
+
+    states.forEach((state) => {
       state.addEventListener("click", (e) => {
         e.stopPropagation();
-        
+
         clearSelection();
 
         selected = state;
         const id = state.id.trim();
         state.style.fill = stateIndex[id].color;
 
-        showRegionInfo(state.id.trim());
+        showRegionInfo(id);
         showRegionInPanel(state);
       });
     });
+
     closeBtn.addEventListener("click", () => {
       clearSelection();
     });
 
-
-
     function clearSelection() {
       hideInfo();
       mapContainer.style.transform = "translate(0, 0) scale(1)";
-  }
+    }
+
     async function showRegionInfo(id) {
+      history.replaceState(null, "", "#" + id);
+
       const meta = stateIndex[id];
-      
+
       overlay.classList.remove("hidden");
 
       nameBox.textContent = meta.name;
+
       const textRes = await fetch(`${meta.folder}/${meta.text}`);
       const textData = await textRes.json();
 
       textBox.innerHTML = textData.text.replace(/\n/g, "<br>");
 
       imgBox.innerHTML = "";
+
       meta.images.forEach(img => {
         const el = document.createElement("img");
         el.src = `${meta.folder}/${img}`;
         imgBox.appendChild(el);
       });
     }
+
     function hideInfo() {
       overlay.classList.add("hidden");
+      history.replaceState(null, "", location.pathname);
     }
+
     function getRegionCenter(state) {
       const bbox = state.getBBox();
 
@@ -75,6 +98,7 @@ document.addEventListener("DOMContentLoaded", () => {
         y: bbox.y + bbox.height / 2
       };
     }
+
     function getLeftPanelCenter() {
       const panel = document.querySelector(".left-panel");
       const rect = panel.getBoundingClientRect();
@@ -84,8 +108,8 @@ document.addEventListener("DOMContentLoaded", () => {
         y: rect.height / 2
       };
     }
-     
-   function showRegionInPanel(state) {
+
+    function showRegionInPanel(state) {
       const panel = document.getElementById("region-preview");
       panel.innerHTML = "";
 
